@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 0.3px solid black;
+    color: floralwhite;
+    
+    margin: 10px;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+
+}
+
+.box1 {
+    background-color: lightseagreen;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+
+.box2 {
+    background-color: blueviolet;
+    position: fixed;
+    z-index: 2;
+    top: 50px;
+    left: 60px;
+
+}
+
+.box3 {
+    background-color: orange;
+}
+
+.box4 {
+    background-color: lightskyblue;
+}
+
+.box5 {
+    background-color: red;
+}
+
+.box6 {
+    background-color: rgb(29, 203, 29);
+}
